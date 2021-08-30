@@ -26,7 +26,7 @@ padding:50px;
 background: #2d2436;
 color: whitesmoke;
   border-radius: 20px 0 0 20px;
-
+padding-bottom: 80px;
 }
 
 .stats_cont{
@@ -42,34 +42,9 @@ color: whitesmoke;
 @media only screen and (min-width: 766px)
 {
 .img_cont{  border-radius:   0 20px 20px 0 ;}
-}
 
-
-@media only screen and (max-width: 766px)
-{
-  .content1 {
-
-        border-radius: 20px 20px 0 0;
-
-    }
-    .img_cont{
-      border-radius: 0 0 20px 20px;
-    }
-
-
-}
-
-@media only screen and (max-width: 540px) {
-.content1 {
-    padding: 15px;
-      border-radius: 20px 20px 0 0;
-  }
-
-  .main-content {
-    padding: 25px;
-  }
-.img_cont{
-  border-radius: 0 0 20px 20px;
+.content1_2 p{
+  padding-right: 5px;
 }
 
 }
@@ -101,21 +76,71 @@ img{
   color:#b563bc;
 }
 
+.content1_2{
+  margin-bottom: 50px;
+}
+
+.content1_2 h1{
+  margin-bottom: 30px;
+}
+
+.content_p{
+  padding-right: 80px;
+}
+
+@media only screen and (max-width: 766px)
+{
+  .content1 {
+
+        border-radius: 20px 20px 0 0;
+
+    }
+    .img_cont{
+      border-radius: 0 0 20px 20px;
+    }
+    .content_p{
+      padding-right: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+.content1 {
+    padding: 15px;
+      border-radius: 20px 20px 0 0;
+  }
+
+  .main-content {
+    padding: 25px;
+  }
+.img_cont{
+  border-radius: 0 0 20px 20px;
+}
+
+
+}
+
+
   </style>
 </head>
 <body>
   <div class="container-fluid  main-content ">
     <div class="row">
-      <div class="  col-md-6 col-sm-12  content1 text-center text-md-left d-flex flex-column justify-content-center align-item-center   ">
-        <h1>Get <span class="span1">insights</span> that help your business grow.</h1>
+      <div class="  col-md-6 col-sm-12  content1  text-md-start text-center d-flex flex-column justify-content-center align-item-center ">
+<div class="content1_2">
+  <h1>Get <span class="span1">insights</span> that help your business grow.</h1>
 
-        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
-        experience, and overall efficiency.</p>
+<div class="content_p">
+  <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+    experience, and overall efficiency.</p>
+</div>
+</div>
+
 
         <div class="stats d-flex flex-wrap  justify-content-center justify-content-md-between text-center align-item-center">
           <div class="col-lg-3 col-md-12">
             <div class="stats_cont">
-              <h1>10k+</h1>
+              <h1>10K+</h1>
               <h3>companies</h3>
             </div>
           </div>
@@ -128,7 +153,7 @@ img{
           <div class="col-lg-3 col-md-12">
 
             <div class="stats_cont">
-            <h1>12m+</h1>
+            <h1>12M+</h1>
             <h3>queries</h3>
             </div>
           </div>
